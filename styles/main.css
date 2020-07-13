@@ -1,24 +1,31 @@
 body {
-    background-color: lightgrey;
+    background-image: url(https://images8.alphacoders.com/407/407841.jpg);
     margin: 0px;
     align-items: center;
 }
+h1{
+    color:black;
+    text-align: center;
+    font-family: cursive;
+}
 
 main {
-    max-width: 80vw;
+    max-width: 70vw;
     margin: auto;
 }
 
 #jogo-da-memoria {
     display: flex;
     flex-wrap: wrap;
+    opacity: 90%;
     background-color: red;
     justify-content: center;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px  purple;
 }
 
 .card {
     margin: 2%;
-    background-color: mediumpurple;
     line-height: 1vh;
     width: 120px;
     height: 150px;
