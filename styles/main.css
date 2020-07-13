@@ -4,9 +4,10 @@ body {
     align-items: center;
 }
 h1{
+    font-family: 'Galada', cursive;
     color:black;
     text-align: center;
-    font-family: cursive;
+    
 }
 
 main {
